@@ -25,3 +25,27 @@ Por otro lado, los archivos CSV que registran el resultados son los ficheros:
 - resultadosMPI.csv
 
 Cada resultado incluye el número de filas procesadas, cantidad de hilos o procesos usados, y el tiempo total de ejecución.
+
+### Compilar 
+Para compilar cada versión se pueden utilizar los siguientes comandos:
+
+Secuencial
+    gcc secuencial.c -o secuencial
+
+OpenMP
+    gcc -fopenmp secuencial.c -o versionOpenMP
+
+MPI
+    mpicc -o versionMPI versionMPI.c
+
+### Ejecutar 
+Los siguientes ejemplos muestran como ejecutar la versión con la matriz intermedia (matriz500.csv y vector500.csv)
+
+Versión secuencial:
+    ./secuencial matriz500.csv vector500.csv
+
+Versión OpenMP:
+    ./versionOpenMP matriz500.csv vector500.csv
+
+Versión MPI:
+    mpirun -np <num_procesos> ./versionMPI matriz500.csv vector500.csv
