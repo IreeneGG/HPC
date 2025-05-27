@@ -1,8 +1,8 @@
 # MULTIPLICACIÓN DE MATRIZ DISPERSA POR VECTOR 💻
 
-Este proyecto se centra en la implementación y análisis de la multiplicación de una matriz dispersa por un vector, una operación fundamental en áreas como la ingeniería, simulaciones científicas y sistemas de recomendación.
+Este proyecto se centra en la implementación y análisis de la multiplicación de una matriz dispersa por un vector.
 
-El objetivo es evaluar el rendimiento de tres enfoques: una versión secuencial, una paralela con OpenMP y otra paralela distribuida usando MPI. Se mide el tiempo de ejecución, el speedup y la eficiencia en distintos tamaños de entrada y configuraciones de hardware.
+El objetivo es evaluar el rendimiento de tres enfoques: una versión secuencial, una paralela con OpenMP y otra paralela distribuida usando MPI. Se mide el tiempo de ejecución, y la eficiencia en distintos tamaños de entrada y configuraciones de hardware.
 
 ## Estructura del proyecto 🗂️
 ### Versiones de implementación ⚙️
