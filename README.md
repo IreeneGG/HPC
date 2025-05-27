@@ -17,7 +17,7 @@ El objetivo es evaluar el rendimiento de tres enfoques: una versión secuencial,
 - matrizComplejaGrande.csv, vectorComplejoGrande.csv: Datos grandes para análisis de eficiencia y comportamiento con múltiples núcleos.
 
 ### Resultados 📈
-En el archivo RESULTADOS.xlsx puede encontrar una comparación de los resultados obtenidos. Además, en el archivo ProyectoFinal.pdf se puede encontrar documentada una comparación más en detalle de los resultados obtenidos.
+En el archivo **RESULTADOS.xlsx** puede encontrar una comparación de los resultados obtenidos. Además, en el archivo **ProyectoFinal.pdf** se puede encontrar documentada una comparación más en detalle de los resultados obtenidos.
 Por otro lado, los archivos CSV que registran el resultados son los ficheros:
 
 - resultadosSecuencial.csv
