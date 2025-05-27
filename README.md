@@ -12,7 +12,7 @@ El objetivo es evaluar el rendimiento de tres enfoques: una versión secuencial,
 
 ### Datos utilizados 📊
 - Matrices y vectores utilizados representados en formato CSV (CSR para la matriz):
-- matrizSencilla.csv, vectorSencillo.csv: Conjunto de datos pequeño, ideal para pruebas básicas.
+- matrizSencilla.csv, vectorSencillo.csv: Conjunto de datos pequeño.
 - matriz500.csv, vector500.csv: Tamaño medio para evaluación de escalabilidad.
 - matrizComplejaGrande.csv, vectorComplejoGrande.csv: Datos grandes para análisis de eficiencia y comportamiento con múltiples núcleos.
 
