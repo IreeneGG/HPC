@@ -1,0 +1,4 @@
+Metodo,N_filas,Hilos,Tiempo_segundos
+OpenMP,4,8,0.000366
+OpenMP,500,8,0.002629
+OpenMP,1391,8,0.000398

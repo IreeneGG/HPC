@@ -1,0 +1,4 @@
+Metodo,N_filas,Hilos,Tiempo_segundos
+Secuencial,4,1,0.000026
+Secuencial,500,1,0.002908
+Secuencial,1391,1,0.004925
